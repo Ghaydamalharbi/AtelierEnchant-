@@ -1,0 +1,27 @@
+  # Digital Assets and Data Governance Framework
+## 1-Digital Assets Inventory & Ownership
+* **Project Name**: Atelier Enchante. * Ownership: 100% Intellectual Property Owned by Developer.
+* **Tech Stack**:
+* **Logic**: .NET Core, Node.Js, Python.
+* **Data Warehouse**: Hybrid Architecture based on (NoSQL via ##MongoDB) for unstructured data & (SQL Server) for structured data.
+* ** Assets Description**: A high-precision personla platform integrating AI agent and secure content management.
+
+## 2-Data Classification & Security Matrix
+* **This section follows ##SDAIA/NDMO classification levels to ensure compliance.
+
+Data Owner | Classification | Structure       | Description                         | Data Asset
+Admin      | Public         | Structured      | UserName/Public Profile             | Account Identity
+Admin      | Top Secret     | Structured      | Email & Encrypted Passwords         | Credentials
+Admin      | Secret         | Unstructured    | User Interactions with the AI Agent | AI Conversations
+Admin      | Public         | Semi-Structured | Articles, Blogs, Designs            | Workshop Content
+
+## 3-Data Lifecycle & Engineering Governance
+* **Data Lifecycle**: We manage data from Ingestion --> Classification --> Encrypted 
+Storage --> Authorized Usage --> Secure Deletion.
+* **Maintenance**: Regular data cleansing and integrity checks to ensure Data Quality.
+* **Transparency**: Useres are informed of data collection purposes via a clear Privacy Notes, adhering to the Right to be informed.
+
+## 4-Risk Management & Comliance
+* **Privacy by Design**: Implementing Encryption at rest and in transit for "Top Secret" assets.
+* **Access Control**: Strict Role-Based-Access-Control (RBAC) where Admin (Owner) is the Sole Authority.
+* **Risk Mitigation**: Implementing hashing algorithms (e.g., BCrypt) for Passwords to ensure even the database administrator cannot view raw credentials.
