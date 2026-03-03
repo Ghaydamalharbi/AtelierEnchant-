@@ -14,7 +14,7 @@
 ### 1. Initial Load
 
 State:
-currentScene = "landing"
+currentScene = landing
 transitionInProgress = false
 animationActive = true
 
@@ -39,7 +39,7 @@ SceneManager prepares LibraryScene.
 ### 3. Library Activated
 
 State:
-currentScene = "library"
+currentScene = library
 transitionInProgress = false
 animationActive = true
 
